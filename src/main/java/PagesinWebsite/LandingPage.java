@@ -16,7 +16,7 @@ public class LandingPage {
 	By forgotpw = By.xpath("//a[contains(text(),'Password forgotten? Click here.')]");
 	By continu = By.xpath("//span[contains(text(),'Continue')]");
 	By PWerror = By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]");
-	
+
 	By errormsg2 = By.xpath("/html[1]/body[1]/div[1]/div[3]/div[1]");
 
 	public LandingPage(WebDriver driver) {
@@ -55,10 +55,16 @@ public class LandingPage {
 		return driver.findElement(PWerror);
 	}
 
-	
-
 	public WebElement pwerrormsg2() {
 		return driver.findElement(errormsg2);
+	}
+
+	public WebElement Clthsentirelink() {
+		return driver.findElement(By.xpath("//div[@class='ui-widget-content infoBoxContents']"));
+	}
+
+	public WebElement buynow() {
+		return driver.findElement(By.xpath("//span[contains(text(),'Buy Now')]"));
 	}
 
 }

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="RegressionTest">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="ActualTests.AdvancedsearchTest" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="ActualTests.AuthenticationTest" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="ActualTests.BookingTest" />
+		</classes>
+	</test>
+	<test name="Test4">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="ActualTests.myaccountTest" />
+		</classes>
+	</test>
+	<test name="Test5">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="PhpTravels.PhpTravelsAutomation.AppTest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

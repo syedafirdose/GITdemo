@@ -18,6 +18,11 @@
       </classes>
       </test>
       <test name="Test4">
+       <classes>
+      <class name="ActualTests.myaccountTest"/>
+      </classes>
+      </test>
+      <test name="Test5">
       <classes>
       <class name="PhpTravels.PhpTravelsAutomation.AppTest"/>
     </classes>

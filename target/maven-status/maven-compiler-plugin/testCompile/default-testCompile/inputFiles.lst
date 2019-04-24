@@ -1,5 +1,5 @@
-C:\Users\my lap\.jenkins\$(JENKINS_HOME)\PhpTravelsAutomation\src\test\java\PhpTravels\PhpTravelsAutomation\AppTest.java
-C:\Users\my lap\.jenkins\$(JENKINS_HOME)\PhpTravelsAutomation\src\test\java\ActualTests\Dummytest.java
-C:\Users\my lap\.jenkins\$(JENKINS_HOME)\PhpTravelsAutomation\src\test\java\ActualTests\Authentication.java
-C:\Users\my lap\.jenkins\$(JENKINS_HOME)\PhpTravelsAutomation\src\test\java\ActualTests\advancedsearch.java
-C:\Users\my lap\.jenkins\$(JENKINS_HOME)\PhpTravelsAutomation\src\test\java\ActualTests\BookingTest.java
+C:\Users\my lap\Desktop\PhpTravelsAutomation\src\test\java\ActualTests\AuthenticationTest.java
+C:\Users\my lap\Desktop\PhpTravelsAutomation\src\test\java\ActualTests\myaccountTest.java
+C:\Users\my lap\Desktop\PhpTravelsAutomation\src\test\java\ActualTests\AdvancedsearchTest.java
+C:\Users\my lap\Desktop\PhpTravelsAutomation\src\test\java\ActualTests\BookingTest.java
+C:\Users\my lap\Desktop\PhpTravelsAutomation\src\test\java\PhpTravels\PhpTravelsAutomation\AppTest.java

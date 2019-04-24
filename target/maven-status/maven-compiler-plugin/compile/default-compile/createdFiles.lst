@@ -1,0 +1,8 @@
+PhpTravels\PhpTravelsAutomation\App.class
+PagesinWebsite\orderPage.class
+Resourses\Initialization.class
+PagesinWebsite\LandingPage.class
+PagesinWebsite\searchadvanced.class
+PagesinWebsite\myAccount.class
+PagesinWebsite\Deliveryinfo.class
+PagesinWebsite\addtoCartPage.class

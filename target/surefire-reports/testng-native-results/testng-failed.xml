@@ -7,8 +7,34 @@
         <methods>
           <include name="Ordering"/>
           <include name="driverStart"/>
+          <include name="OrderinNewadress"/>
+          <include name="modifyingOrder"/>
         </methods>
       </class> <!-- ActualTests.BookingTest -->
+      <class name="ActualTests.AuthenticationTest">
+        <methods>
+          <include name="forgotpasswordtest2"/>
+          <include name="driverStart"/>
+          <include name="Invalidlogin2"/>
+          <include name="Invalidlogin3"/>
+          <include name="Invaliglogin4"/>
+          <include name="InvalidLogin"/>
+          <include name="Postivelogin"/>
+          <include name="forgotpasswordtest1"/>
+        </methods>
+      </class> <!-- ActualTests.AuthenticationTest -->
+      <class name="ActualTests.myaccountTest">
+        <methods>
+          <include name="driverStart"/>
+          <include name="MyaccountAlllinksverification"/>
+        </methods>
+      </class> <!-- ActualTests.myaccountTest -->
+      <class name="ActualTests.AdvancedsearchTest">
+        <methods>
+          <include name="driverStart"/>
+          <include name="Exit"/>
+        </methods>
+      </class> <!-- ActualTests.AdvancedsearchTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

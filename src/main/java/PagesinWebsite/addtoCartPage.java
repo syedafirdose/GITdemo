@@ -11,8 +11,9 @@ public class addtoCartPage {
 
 	By Cart = By.xpath("//span[@class='ui-button-text']");
 	By AddtoCartbutton = By.xpath("//span[contains(text(),'Add to Cart')]");
-	By quantity = By.xpath("cart_quantity[]");
-	By checkout = By.xpath("//a[@href='http://www.gcrit.com/build3/shopping_cart.php']");
+	By quantity = By.xpath("//input[@name='cart_quantity[]']");
+	By checkout = By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[2]/span[1]/span[1]/a[1]/span[2]");
+	By update=By.xpath("//span[contains(text(),'Update')]");
 	
 	// By Mycartlinks = By.xpath("//div[@class='contentText']");
 	By remove = By.tagName("a");
@@ -43,8 +44,12 @@ public class addtoCartPage {
 	}
 
 	public List<WebElement> mycartlinks() {
-		WebElement Mycartlinks = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]"));
-		return Mycartlinks.findElements(By.xpath("//a[contains(@href,'remove_product')]"));
+		WebElement Mycartlinks = driver.findElement(By.xpath("//div[@class='contentText']"));
+		return Mycartlinks.findElements(By.tagName("a"));
+	}
+	public WebElement Updatebutton() {
+
+		return driver.findElement(update);
 	}
 
 }
