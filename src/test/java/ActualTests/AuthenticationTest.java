@@ -148,6 +148,8 @@ public class AuthenticationTest extends Initialization {
 		if (lp.pwerrormsg2().isDisplayed()) {
 			System.out.println(
 					"Test passed for forgotpasswordtest1, Reset password link has been send to registered mail ID");
+			System.out.println(
+					"Test passed for forgotpasswordtest1, Reset password link has been send to registered mail ID");
 
 		} else if (lp.pwerrormsg().isDisplayed()) {
 
