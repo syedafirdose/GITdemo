@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65722" started-at="2019-04-23T16:33:08Z" finished-at="2019-04-23T16:34:14Z">
+  <suite name="Default suite" duration-ms="98874" started-at="2019-05-11T11:46:27Z" finished-at="2019-05-11T11:48:06Z">
     <groups>
       <group name="Regression">
-        <method signature="AdvancedsearchTest.Advancedsearch()[pri:0, instance:ActualTests.AdvancedsearchTest@548a9f61]" name="Advancedsearch" class="ActualTests.AdvancedsearchTest"/>
+        <method signature="AuthenticationTest.InvalidLogin()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="InvalidLogin" class="ActualTests.AuthenticationTest"/>
+        <method signature="AuthenticationTest.Invalidlogin2()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="Invalidlogin2" class="ActualTests.AuthenticationTest"/>
+        <method signature="AuthenticationTest.Invalidlogin3()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="Invalidlogin3" class="ActualTests.AuthenticationTest"/>
+        <method signature="AuthenticationTest.Invaliglogin4()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="Invaliglogin4" class="ActualTests.AuthenticationTest"/>
+        <method signature="AuthenticationTest.forgotpasswordtest1()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="forgotpasswordtest1" class="ActualTests.AuthenticationTest"/>
+        <method signature="AuthenticationTest.forgotpasswordtest2()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="forgotpasswordtest2" class="ActualTests.AuthenticationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="Default test" duration-ms="65722" started-at="2019-04-23T16:33:08Z" finished-at="2019-04-23T16:34:14Z">
-      <class name="ActualTests.AdvancedsearchTest">
-        <test-method status="PASS" signature="driverStart()[pri:0, instance:ActualTests.AdvancedsearchTest@548a9f61]" name="driverStart" is-config="true" duration-ms="7714" started-at="2019-04-23T09:33:08Z" finished-at="2019-04-23T09:33:16Z">
+    <test name="Default test" duration-ms="98874" started-at="2019-05-11T11:46:27Z" finished-at="2019-05-11T11:48:06Z">
+      <class name="ActualTests.AuthenticationTest">
+        <test-method status="PASS" signature="driverStart()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="driverStart" is-config="true" duration-ms="56494" started-at="2019-05-11T04:46:27Z" finished-at="2019-05-11T04:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverStart -->
-        <test-method status="PASS" signature="Advancedsearch()[pri:0, instance:ActualTests.AdvancedsearchTest@548a9f61]" name="Advancedsearch" duration-ms="47330" started-at="2019-04-23T09:33:16Z" finished-at="2019-04-23T09:34:03Z">
+        <test-method status="PASS" signature="InvalidLogin()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="InvalidLogin" duration-ms="12348" started-at="2019-05-11T04:47:24Z" finished-at="2019-05-11T04:47:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Advancedsearch -->
-        <test-method status="PASS" signature="helplink()[pri:0, instance:ActualTests.AdvancedsearchTest@548a9f61]" name="helplink" duration-ms="10427" started-at="2019-04-23T09:34:03Z" finished-at="2019-04-23T09:34:14Z">
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="Invalidlogin2()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="Invalidlogin2" duration-ms="2805" started-at="2019-05-11T04:47:36Z" finished-at="2019-05-11T04:47:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- helplink -->
-        <test-method status="PASS" signature="Exit()[pri:0, instance:ActualTests.AdvancedsearchTest@548a9f61]" name="Exit" is-config="true" duration-ms="121" started-at="2019-04-23T09:34:14Z" finished-at="2019-04-23T09:34:14Z">
+        </test-method> <!-- Invalidlogin2 -->
+        <test-method status="PASS" signature="Invalidlogin3()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="Invalidlogin3" duration-ms="5074" started-at="2019-05-11T04:47:39Z" finished-at="2019-05-11T04:47:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Exit -->
-      </class> <!-- ActualTests.AdvancedsearchTest -->
+        </test-method> <!-- Invalidlogin3 -->
+        <test-method status="PASS" signature="Invaliglogin4()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="Invaliglogin4" duration-ms="2587" started-at="2019-05-11T04:47:44Z" finished-at="2019-05-11T04:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invaliglogin4 -->
+        <test-method status="PASS" signature="Postivelogin()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="Postivelogin" duration-ms="4867" started-at="2019-05-11T04:47:47Z" finished-at="2019-05-11T04:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Postivelogin -->
+        <test-method status="PASS" signature="forgotpasswordtest1()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="forgotpasswordtest1" duration-ms="7562" started-at="2019-05-11T04:47:51Z" finished-at="2019-05-11T04:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordtest1 -->
+        <test-method status="PASS" signature="forgotpasswordtest2()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="forgotpasswordtest2" duration-ms="5062" started-at="2019-05-11T04:47:59Z" finished-at="2019-05-11T04:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordtest2 -->
+        <test-method status="PASS" signature="Exitbrowser()[pri:0, instance:ActualTests.AuthenticationTest@548a9f61]" name="Exitbrowser" is-config="true" duration-ms="1882" started-at="2019-05-11T04:48:04Z" finished-at="2019-05-11T04:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exitbrowser -->
+      </class> <!-- ActualTests.AuthenticationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -31,7 +31,9 @@ public class searchadvanced {
 
 		this.driver = driver;
 	}
-
+	public WebElement frstNam() {
+		return driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[2]/table[1]/tbody[1]/tr[2]/td[2]/input[1]"));
+	}
 	public WebElement manufactureinfo() {
 
 		return driver.findElement(manufacture);

@@ -1,52 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test name="Test2(failed)">
-    <groups>
-      <run>
-        <include name="Regression"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="ActualTests.AuthenticationTest">
-        <methods>
-          <include name="forgotpasswordtest2"/>
-          <include name="Invalidlogin2"/>
-          <include name="Invalidlogin3"/>
-          <include name="Invaliglogin4"/>
-          <include name="InvalidLogin"/>
-          <include name="Postivelogin"/>
-          <include name="forgotpasswordtest1"/>
-        </methods>
-      </class> <!-- ActualTests.AuthenticationTest -->
-    </classes>
-  </test> <!-- Test2(failed) -->
-  <test name="Test3(failed)">
-    <groups>
-      <run>
-        <include name="Regression"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="ActualTests.BookingTest">
         <methods>
-          <include name="Ordering"/>
+          <include name="Exit"/>
+          <include name="withoutPaymenterror"/>
+          <include name="driverStart"/>
         </methods>
       </class> <!-- ActualTests.BookingTest -->
     </classes>
-  </test> <!-- Test3(failed) -->
-  <test name="Test4(failed)">
-    <groups>
-      <run>
-        <include name="Regression"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="ActualTests.myaccountTest">
-        <methods>
-          <include name="MyaccountAlllinksverification"/>
-        </methods>
-      </class> <!-- ActualTests.myaccountTest -->
-    </classes>
-  </test> <!-- Test4(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

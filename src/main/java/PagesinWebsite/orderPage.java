@@ -9,13 +9,6 @@ import org.openqa.selenium.WebElement;
 public class orderPage {
 
 	public WebDriver driver;
-	// Dont ever define the webelemnts outside the method
-
-	// WebElement entirebooks =
-	// driver.findElement(By.xpath("//div[@class='ui-widget-content ui-corner-bottom
-	// productListTable']"));
-
-	// List<WebElement> linksinbooks = entirebooks.findElements(By.tagName("a"));
 
 	public orderPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
@@ -26,12 +19,11 @@ public class orderPage {
 	public WebElement Searchingbooks() {
 
 		return driver.findElement(By.xpath("//div[@class='ui-widget-content infoBoxContents']"));
-
 	}
+
 	public WebElement SearchingCloths() {
 
 		return driver.findElement(By.xpath("//a[contains(text(),'Clothes->')]"));
-
 	}
 
 	public List<WebElement> clickonlink() {
@@ -43,18 +35,17 @@ public class orderPage {
 		WebElement entirebooks = driver
 				.findElement(By.xpath("//div[@class='ui-widget-content ui-corner-bottom productListTable']"));
 		List<WebElement> linksinbooks = entirebooks.findElements(By.tagName("a"));
-
 		return linksinbooks;
-
 	}
+
 	public WebElement clothsentertainer() {
 
 		return driver.findElement(By.xpath("//td[@class='smallText']//a[contains(text(),'Entertainer')]"));
-	
 	}
+
 	public WebElement BuyNow() {
 
 		return driver.findElement(By.xpath("//span[contains(text(),'Buy Now')]"));
-	
 	}
+
 }

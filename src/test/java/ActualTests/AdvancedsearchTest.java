@@ -16,12 +16,12 @@ import junit.framework.Assert;
 public class AdvancedsearchTest extends Initialization {
 	public WebDriver driver;
 
-	@BeforeTest(groups= {"Regression"})
+	@BeforeTest(groups = { "Regression" })
 	public void driverStart() throws IOException {
 		driver = initializeDriver();
 	}
 
-	@Test(groups= {"Regression"})
+	@Test(groups = { "Regression" })
 	public void Advancedsearch() throws IOException, InterruptedException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
@@ -75,7 +75,7 @@ public class AdvancedsearchTest extends Initialization {
 		sa.Search().click();
 		Assert.assertTrue(sa.MsgDisplayed().isDisplayed());
 		System.out.println(sa.MsgDisplayed().getText());
-		System.out.println(sa.MsgDisplayed().getText());
+
 	}
 
 	@Test
@@ -93,10 +93,11 @@ public class AdvancedsearchTest extends Initialization {
 		sa.HelpOkbutton().click();
 
 	}
+
 	@AfterTest
 	public void Exit() {
 		driver.close();
-		driver=null;
+		driver = null;
 	}
 
 }

@@ -13,10 +13,8 @@ public class addtoCartPage {
 	By AddtoCartbutton = By.xpath("//span[contains(text(),'Add to Cart')]");
 	By quantity = By.xpath("//input[@name='cart_quantity[]']");
 	By checkout = By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[2]/span[1]/span[1]/a[1]/span[2]");
-	By update=By.xpath("//span[contains(text(),'Update')]");
-	
-	// By Mycartlinks = By.xpath("//div[@class='contentText']");
-	By remove = By.tagName("a");
+	By update = By.xpath("//span[contains(text(),'Update')]");
+	By remove=By.tagName("a");
 
 	public addtoCartPage(WebDriver driver) {
 
@@ -47,9 +45,17 @@ public class addtoCartPage {
 		WebElement Mycartlinks = driver.findElement(By.xpath("//div[@class='contentText']"));
 		return Mycartlinks.findElements(By.tagName("a"));
 	}
+
 	public WebElement Updatebutton() {
 
 		return driver.findElement(update);
+	}
+
+	public WebElement toplinks() {
+
+		WebElement tplinks = driver.findElement(By.xpath("//div[@class='ui-widget-header infoBoxHeading']"));
+		tplinks.findElements(By.tagName("a"));
+		return tplinks;
 	}
 
 }

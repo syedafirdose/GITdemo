@@ -16,12 +16,12 @@ import junit.framework.Assert;
 public class AuthenticationTest extends Initialization {
 	public WebDriver driver;
 
-	@BeforeTest(groups= {"Regression"})
+	@BeforeTest(groups = { "Regression" })
 	public void driverStart() throws IOException {
 		driver = initializeDriver();
 	}
 
-	@Test(groups= {"Regression"})
+	@Test
 	public void Postivelogin() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
@@ -41,7 +41,7 @@ public class AuthenticationTest extends Initialization {
 		}
 	}
 
-	@Test(groups= {"Regression"})
+	@Test(groups = { "Regression" })
 	public void InvalidLogin() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
@@ -61,7 +61,7 @@ public class AuthenticationTest extends Initialization {
 
 	}
 
-	@Test(groups= {"Regression"})
+	@Test(groups = { "Regression" })
 	public void Invalidlogin2() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
@@ -89,7 +89,7 @@ public class AuthenticationTest extends Initialization {
 		}
 	}
 
-	@Test(groups= {"Regression"})
+	@Test(groups = { "Regression" })
 	public void Invalidlogin3() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
@@ -109,7 +109,7 @@ public class AuthenticationTest extends Initialization {
 
 	}
 
-	@Test(groups= {"Regression"})
+	@Test(groups = { "Regression" })
 	public void Invaliglogin4() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
@@ -134,7 +134,7 @@ public class AuthenticationTest extends Initialization {
 		driver = null;
 	}
 
-	@Test(groups= {"Regression"})
+	@Test(groups = { "Regression" })
 	public void forgotpasswordtest1() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
@@ -148,8 +148,6 @@ public class AuthenticationTest extends Initialization {
 		if (lp.pwerrormsg2().isDisplayed()) {
 			System.out.println(
 					"Test passed for forgotpasswordtest1, Reset password link has been send to registered mail ID");
-			System.out.println(
-					"Test passed for forgotpasswordtest1, Reset password link has been send to registered mail ID");
 
 		} else if (lp.pwerrormsg().isDisplayed()) {
 
@@ -157,7 +155,7 @@ public class AuthenticationTest extends Initialization {
 		}
 	}
 
-	@Test(groups= {"Regression"})
+	@Test(groups = { "Regression" })
 	public void forgotpasswordtest2() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(

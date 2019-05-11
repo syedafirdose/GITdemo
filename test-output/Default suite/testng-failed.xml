@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ActualTests.myaccountTest">
+      <class name="ActualTests.BookingTest">
         <methods>
+          <include name="Exit"/>
+          <include name="withoutPaymenterror"/>
           <include name="driverStart"/>
-          <include name="MyaccountAlllinksverification"/>
         </methods>
-      </class> <!-- ActualTests.myaccountTest -->
+      </class> <!-- ActualTests.BookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

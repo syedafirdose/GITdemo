@@ -1,5 +1,7 @@
 package PagesinWebsite;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -65,6 +67,34 @@ public class LandingPage {
 
 	public WebElement buynow() {
 		return driver.findElement(By.xpath("//span[contains(text(),'Buy Now')]"));
+	}
+
+	public List<WebElement> shoppingcart() {
+		WebElement cart = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[5]/div[1]/table[1]"));
+		return cart.findElements(By.tagName("a"));
+	}
+
+	public List<WebElement> orderHistory() {
+		WebElement cart1 = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[5]/div[2]/table[1]"));
+		return cart1.findElements(By.tagName("a"));
+	}
+	public WebElement Reviews() {
+		return driver.findElement(By.xpath("//span[contains(text(),'Reviews')]"));
+	}
+	public WebElement Textmsg() {
+		return driver.findElement(By.xpath("//span[contains(text(),'Reviews')]"));
+	}
+	public WebElement writeReview() {
+		return driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/div[2]/div[2]/span[1]/span[1]/a[1]/span[2]"));
+	}
+	public WebElement reviewArea() {
+		return driver.findElement(By.xpath("//textarea[@name='review']"));
+	}
+	public WebElement ratingtheproduct() {
+		return driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/input[5]"));
+	}
+	public WebElement reviewMsg() {
+		return driver.findElement(By.xpath("//td[@class='messageStackSuccess']"));
 	}
 
 }
