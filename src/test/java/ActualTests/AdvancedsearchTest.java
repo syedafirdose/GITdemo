@@ -75,6 +75,7 @@ public class AdvancedsearchTest extends Initialization {
 		sa.Search().click();
 		Assert.assertTrue(sa.MsgDisplayed().isDisplayed());
 		System.out.println(sa.MsgDisplayed().getText());
+		System.out.println(sa.MsgDisplayed().getText());
 
 	}
 
